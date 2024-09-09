@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  color: white;
+}
+
+.container {
+  width: 1110px;
+  margin-inline: auto;
+}
+
+/* header baslangic */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header a {
+  align-items: center;
+}
+
+.topheader {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.top-left-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.top-left-avatar img {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+/* Burada header kismi bitiyor */
+
+/* burada landing page basliyor. */
+
+.landing-page {
+  display: flex;
+  margin-top: 88px;
+  margin-bottom: 88px;
+}
+
+.landing-page h1 {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.landing-page p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+
+.explaining-title {
+  padding-top: 52px;
+}
+
+.explaining-title img {
+  margin-top: 29px;
+  margin-right: 27px;
+}
+
+.partnership-brands p {
+  color: rgba(128, 126, 126, 1);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.partnership-brands-all {
+  display: flex;
+  gap: 50px;
+  opacity: 30%;
+  margin-bottom: 56px;
+}
+
+.graph {
+  margin-top: 120px;
+}
+
+.graph p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.graph h1 {
+  width: 665px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 72px;
+}
+.graph img {margin-bottom: 120px;}
+
+.apple-watch {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.apple-watch h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.apple-watch h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.apple-watch p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.apple-watch span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.apple-watch a {
+  text-decoration: none;
+  color: white;
+}
+
+.detailed-desktop {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.detailed-desktop p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.detailed-desktop h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 48px;
+}
+
+.detailed-desktop img {
+  margin-bottom: 120px;
+}
+
+.pricing {
+  padding-top: 120px;
+  
+}
+
+.pricing-explaining {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.pricing-explaining p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pricing-explaining h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+
+}
+
+.pricing-explaining-columns {
+  display: flex;
+  gap: 24px;
+  border-radius: 12px 
+}
+
+.column {
+  width: 354px;
+  height: 388px;
+  background-color: #121212;
+  border-radius:12px ;
+  margin-bottom: 120px;
+}
+
+.column h3 {
+  text-align: center;
+  padding: 40px 40px 16px 40px ;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px; 
+}
+
+.column p {
+  text-align: center;
+  padding-inline: 40px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.column  h1 {
+  text-align: center;
+  padding-inline: 40px;
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+
+}
+
+.column a {
+  margin-left: 24px;
+  text-decoration: none;
+  color:rgba(255, 255, 255, 1);
+  background-color: #dc3545;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 16px 72px;
+  border-radius: 3px;
+}
+
+.faq-part {
+  padding-top: 120px;
+}
+
+.faq-part h2 {
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+padding-block: 24px;
+
+
+}
+
+.faq-part h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-block: 24px;
+  
+}
+
+.faq-part p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+ hr {
+  border-bottom:1p solid rgba(63, 59, 59, 1) ;
+}
+
+hr:last-child {
+  margin-bottom: 120px;
+}
+
+.footer-top {
+  background-color: #121212;
+  display: flex;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+.footer-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.downloadside {
+  width: 426px;
+
+}
+
+.downloadside h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-top:83px ;
+  padding-left: 96px;
+}
+
+.downloadside a {
+  background-color: #dc3545;
+  padding: 16px 52px;
+  margin-left: 96px;
+}
+.footer-top img {
+  margin-top: 36px;
+  margin-left: 158px;
+}
+
+
+.all-icons {
+  padding-left: 40px;
+}
+
+
+.footer {
+  border-top: 1px solid rgba(63, 59, 59, 1);
+  padding-block: 72px;
+  display: flex;
+  gap: 24px;
+  background-color: #121212;
+  padding-inline: 165px;
+}
+
+.columns {
+  width: 165px;
+  height: 152px;
+}
+
+.footer h3 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(128, 126, 126, 1);
+}
+
+.footer-right-side {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+
+.footer-right-side img {
+  margin-top: 24px;
+}
+.deep-down-footer-icons  {
+  display: flex;
+  gap: 40px;
+}
+
+.deep-down-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+  padding: 24px 165px;
+}
